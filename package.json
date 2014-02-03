@@ -1,0 +1,41 @@
+{
+  "name": "generator-toasterplugin",
+  "version": "0.0.1",
+  "description": "A SEOTOASTER V2 plugin generator for Yeoman",
+  "keywords": [
+    "yeoman-generator", "seotoaster", "php", "cms"
+  ],
+  "homepage": "https://github.com/PavloKovalov/generator-toasterplugin",
+  "bugs": "https://github.com/PavloKovalov/generator-toasterplugin/issues",
+  "author": {
+    "name": "Pavlo Kovalov",
+    "email": "pavlo.kovalyov@gmail.com",
+    "url": "https://github.com/PavloKovalov"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PavloKovalov/generator-toasterplugin.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
